@@ -1,3 +1,4 @@
+---
 name: Missing Shader Instruction
 description: Shader Instruction is missing in Ryujinx.
 title: "[GPU]"
@@ -14,6 +15,9 @@ body:
     id: required
     attributes:
       label: Required by
-      description: Add links to the [compatibility list page(s)](https://github.com/Ryujinx/Ryujinx-Games-List/issues) of the game(s) that require this instruction.
+      description: |
+        Add links to the
+        [compatibility list page(s)](https://github.com/Ryujinx/Ryujinx-Games-List/issues)
+        of the game(s) that require this instruction.
     validations:
       required: true

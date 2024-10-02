@@ -17,11 +17,11 @@ jobs:
       - name: Fetch sources
         uses: actions/checkout@v4
         with:
-           # Ensure we pin the source origin as pull_request_target run under
-           # forks.
-           fetch-depth: 0
-           repository: Ryujinx-NX/Ryujinx
-           ref: master
+          # Ensure we pin the source origin as pull_request_target run under
+          # forks.
+          fetch-depth: 0
+          repository: Ryujinx-NX/Ryujinx
+          ref: master
 
       - name: Update labels based on changes
         uses: actions/labeler@v5

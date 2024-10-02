@@ -1,3 +1,4 @@
+---
 audio:
 - changed-files:
   - any-glob-to-any-file: 'src/Ryujinx.Audio*/**'

@@ -1,8 +1,9 @@
+---
 name: Perform checks
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [master]
     paths:
       - '**'
       - '!.github/**'
@@ -43,8 +44,8 @@ jobs:
         run: |
           dotnet format whitespace --verify-no-changes --report ./whitespace-report.json -v d
 
-      # For some unknown reason this step sometimes fails with exit code 139 (segfault?),
-      # so in that case we'll try again (3 tries max).
+      # For some unknown reason this step sometimes fails with exit code 139
+      # (segfault?), so in that case we'll try again (3 tries max).
       - name: Run dotnet format style
         uses: TSRBerry/unstable-commands@v1
         with:
@@ -52,8 +53,8 @@ jobs:
           timeout-minutes: 5
           retry-codes: 139
 
-      # For some unknown reason this step sometimes fails with exit code 139 (segfault?),
-      # so in that case we'll try again (3 tries max).
+      # For some unknown reason this step sometimes fails with exit code 139
+      # (segfault?), so in that case we'll try again (3 tries max).
       - name: Run dotnet format analyzers
         uses: TSRBerry/unstable-commands@v1
         with:
