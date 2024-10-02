@@ -54,8 +54,11 @@ jobs:
         # default and only seems to appears when publishing.
         # So we just publish to grab the dependencies
         run: |
-          dotnet publish -c Release -r linux-x64 Ryujinx/${{ env.RYUJINX_PROJECT_FILE }} --self-contained
-          dotnet publish -c Release -r linux-arm64 Ryujinx/${{ env.RYUJINX_PROJECT_FILE }} --self-contained
+          dotnet publish -c Release -r linux-x64 \
+            Ryujinx/${{ env.RYUJINX_PROJECT_FILE }} --self-contained
+          dotnet publish -c Release -r linux-arm64 \
+            Ryujinx/${{ env.RYUJINX_PROJECT_FILE }} --self-contained
+        shell: bash
 
       - name: Generate nuget_sources.json
         shell: python
