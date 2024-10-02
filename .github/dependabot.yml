@@ -1,3 +1,4 @@
+---
 version: 2
 updates:
   - package-ecosystem: "github-actions"
@@ -11,8 +12,8 @@ updates:
     commit-message:
       prefix: "ci"
 
-  - package-ecosystem: nuget
-    directory: /
+  - package-ecosystem: "nuget"
+    directory: "/"
     open-pull-requests-limit: 10
     schedule:
       interval: daily
