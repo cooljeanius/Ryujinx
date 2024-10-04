@@ -4,7 +4,7 @@
   <br>
   <b>Ryujinx</b>
   <br>
-  <sub><sup><b>(REE-YOU-JINX)</b></sup></sub>
+  <sub><sup><b>(REE-YOU-JI-NX)</b></sup></sub>
   <br>
 </h1>
 
@@ -62,9 +62,7 @@ Avalonia UI comes with translations for various languages. See [Crowdin](https:/
 These builds are compiled automatically for each commit on the master branch.
 While we strive to ensure optimal stability and performance prior to pushing an update, our automated builds **may be unstable or completely broken**.
 
-If you want to see details on updates to the emulator, you can visit our [Changelog](https://github.com/Ryujinx/Ryujinx/wiki/Changelog).
-
-The latest automatic build for Windows, macOS, and Linux can be found on the [Official Website](https://ryujinx.org/download).
+The latest automatic build for Windows, macOS, and Linux can be found on the [Github Releases](https://github.com/Ryujinx-NX/Ryujinx/releases/tag/Release).
 
 ## Documentation
 
@@ -135,18 +133,6 @@ This folder is located in the user folder, which can be accessed by clicking `Op
   The emulator has settings for enabling or disabling some logging, remapping controllers, and more.
   You can configure all of them through the graphical interface or manually through the config file, `Config.json`, found in the user folder which can be accessed by clicking `Open Ryujinx Folder` under the File menu in the GUI.
 
-## Contact
-
-If you have contributions, suggestions, need emulator support or just want to get in touch with the team, join our [Discord server](https://discord.com/invite/Ryujinx).
-You may also review our [FAQ](https://github.com/Ryujinx/Ryujinx/wiki/Frequently-Asked-Questions).
-
-## Donations
-
-If you'd like to support the project financially, Ryujinx has an active Patreon campaign.
-
-<a href="https://www.patreon.com/ryujinx">
-    <img src="https://images.squarespace-cdn.com/content/v1/560c1d39e4b0b4fae0c9cf2a/1567548955044-WVD994WZP76EWF15T0L3/Patreon+Button.png?format=500w" width="150">
-</a>
 
 All developers working on the project do so in their free time, but the project has several expenses:
 * Hackable Nintendo Switch consoles to reverse-engineer the hardware
