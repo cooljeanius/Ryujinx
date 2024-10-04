@@ -31,3 +31,6 @@ updates:
       NUnit:
         patterns:
           - "NUnit*"
+      Unicorn:
+        patterns:
+          - "*Unicorn*"
