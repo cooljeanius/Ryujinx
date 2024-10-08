@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://ryujinx.org/"><img src="https://i.imgur.com/srZVzuY.png" alt="Ryujinx" width="150"></a>
+  <a href="https://ryujinx.org/"><img src="https://i.imgur.com/eO8zXO3.png" alt="Ryujinx" width="150"></a>
   <br>
-  <b>Ryujinx</b>
+  <b>Ryujinx-NX</b>
   <br>
   <sub><sup><b>(REE-YOU-JI-NX)</b></sup></sub>
   <br>
