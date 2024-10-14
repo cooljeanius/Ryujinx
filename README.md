@@ -37,6 +37,7 @@
 ## To Do List
 
 1. Enable actions to build.
+2. Find new Devs ( If you want to contribute Feel free but please test You're work and keep the code clean like Gdkchan did )
 
 ## Compatibility
 
