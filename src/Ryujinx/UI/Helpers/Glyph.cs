@@ -5,6 +5,5 @@ namespace Ryujinx.Ava.UI.Helpers
         List,
         Grid,
         Chip,
-        Important,
     }
 }
