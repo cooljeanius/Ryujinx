@@ -42,3 +42,6 @@ updates:
       Unicorn:
         patterns:
           - "*Unicorn*"
+      SkiaSharp:
+        patterns:
+          - "SkiaSharp*"
