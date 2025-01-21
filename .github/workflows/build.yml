@@ -142,7 +142,7 @@ jobs:
 
   build_macos:
     name: macOS Universal (${{ matrix.configuration }})
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 45
     strategy:
       matrix:
