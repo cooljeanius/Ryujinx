@@ -25,7 +25,7 @@
         <img src="https://badges.crowdin.net/ryujinx/localized.svg"
             alt="">
     </a>
-    <a href="https://discord.com/invite/VkQYXAZ">
+    <a href="https://discord.gg/PEuzjrFXUA">
         <img src="https://img.shields.io/discord/410208534861447168?color=5865F2&label=Ryujinx&logo=discord&logoColor=white"
             alt="Discord">
     </a>
