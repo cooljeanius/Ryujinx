@@ -45,3 +45,6 @@ updates:
       SkiaSharp:
         patterns:
           - "SkiaSharp*"
+      System:
+        patterns:
+          - "System*"
